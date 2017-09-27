@@ -35,18 +35,26 @@
     background-color: #fe3325;
     height: 500px;
     margin-top: 20px;
-
+    padding: 0;
     h1 {
-      text-align: center;
       font-family: 'Abril Fatface';
       font-size: 100px;
       color: $white;
-      padding-top: 180px;
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 
   .vuk-container {
-    padding-top: 150px;
+
+    #particles-js {
+      width: 100%;
+      height: 100%;
+    }
+    padding-top: 180px;
     display: none;
     h1 {
       font-family: 'Abril Fatface';
@@ -54,7 +62,9 @@
       a {
         text-decoration: none;
         color: #fe3325;
-
+      }
+      .dot1 {
+        color: #fe3325;
       }
     }
   }
@@ -66,43 +76,3 @@
   }
 }
 
-.pages-container {
-  padding: 0;
-
-  .pages {
-    padding-top: 100px;
-    display: inherit;
-    a {
-      text-decoration: none;
-      color: #333;
-      font-size: 30px;
-      margin-left: 60px;
-      &:nth-child(1) {
-        margin-left: 0;
-      }
-      &:hover {
-        color: #fe3325;
-        transition: .3s ease;
-      }
-    }
-  }
-
-  .pages-2-col {
-    padding-top: 100px;
-  }
-}
-
-@media screen and(max-width: 990px) {
-  .pages {
-    a {
-     text-align: center;
-     margin: 0 auto;
-     max-width: 90%;
-     padding: 0 10px;
-     font-size: 25px;
-      &:nth-child(3) {
-        margin-right: 0;
-      }
-    }
-  }
-}
