@@ -1,16 +1,66 @@
+@import 'variables';
+
 
 .navbar {
   margin-top: 30px;
+  
+  .navigation {
+    padding: 0;
+  }
 
   .navbar-brand {
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #333;      
+    color: #333;  
+  }
+
+   
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 
   .nav-link {
     color: #333;
     text-transform: uppercase; 
+  }
+  .nav-icon {
+    font-size: 20px;
+  }
+}
+
+.intro {
+
+  .hello {
+    background-color: #fe3325;
+    height: 500px;
+    margin-top: 20px;
+
+    h1 {
+      text-align: center;
+      font-family: 'Abril Fatface';
+      font-size: 100px;
+      color: $white;
+      padding-top: 180px;
+    }
+  }
+
+  .vuk-container {
+    padding-top: 150px;
+    h1 {
+      font-family: 'Abril Fatface';
+      font-size: 50px;
+      a {
+        text-decoration: none;
+        color: #fe3325;
+
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 990px) {
+  .vuk-container {
+    padding-top: 70px !important;
   }
 }

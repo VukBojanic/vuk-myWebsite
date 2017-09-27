@@ -1,4 +1,9 @@
+@import 'variables';
 @import 'header';
+
+html * {
+  outline: 0 !important;
+}
 
 body {
   font-family: 'Abril Fatface', cursive;
