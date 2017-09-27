@@ -47,6 +47,7 @@
 
   .vuk-container {
     padding-top: 150px;
+    display: none;
     h1 {
       font-family: 'Abril Fatface';
       font-size: 50px;
@@ -62,5 +63,46 @@
 @media screen and(max-width: 990px) {
   .vuk-container {
     padding-top: 70px !important;
+  }
+}
+
+.pages-container {
+  padding: 0;
+
+  .pages {
+    padding-top: 100px;
+    display: inherit;
+    a {
+      text-decoration: none;
+      color: #333;
+      font-size: 30px;
+      margin-left: 60px;
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+      &:hover {
+        color: #fe3325;
+        transition: .3s ease;
+      }
+    }
+  }
+
+  .pages-2-col {
+    padding-top: 100px;
+  }
+}
+
+@media screen and(max-width: 990px) {
+  .pages {
+    a {
+     text-align: center;
+     margin: 0 auto;
+     max-width: 90%;
+     padding: 0 10px;
+     font-size: 25px;
+      &:nth-child(3) {
+        margin-right: 0;
+      }
+    }
   }
 }
