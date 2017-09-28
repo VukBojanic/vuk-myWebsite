@@ -12,6 +12,14 @@
   .intro-work .introw-p2 {
     color: #606060;
     font-size: 20px; }
+  .intro-work a {
+    color: #333;
+    text-decoration: underline;
+    font-size: 20px; }
+    .intro-work a:hover {
+      text-decoration: none;
+      color: #fe3325;
+      transition: .3s ease; }
   .intro-work .row-work-2 {
     padding-top: 25px !important; }
 
