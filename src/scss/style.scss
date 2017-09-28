@@ -3,6 +3,10 @@
 @import 'work';
 @import 'footer';
 
+* {
+  margin: 0;
+  padding: 0;
+}
 html * {
   outline: 0 !important;
 }

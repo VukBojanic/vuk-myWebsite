@@ -4,5 +4,5 @@ particlesJS.load('particles-js', 'js/particles.json', function() {
 });
 
 $(document).ready(function() {
-  $('.vuk-container').delay(1500).fadeIn(300);
+  $('.vuk-container').delay(1000).fadeIn(300);
   });

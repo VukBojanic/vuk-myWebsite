@@ -1,14 +1,47 @@
+@import 'variables';
+
+.intro-work {
+  padding: 0;
+  margin-top: 60px;
+
+  .introw-title {
+    font-family: 'Abril Fatface';
+    color: #333;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .introw-p1 {
+    color: $post-text;
+    font-size: 20px;
+  }
+  .introw-p2 {
+    color: $post-text;
+    font-size: 20px;
+  }
+
+  .row-work-2 {
+    padding-top: 25px !important;
+  }
+}
 
 .work {
   padding: 0;
-  margin-top: 100px;
-  .work1 {
-    background: pink;
+  margin-top: 30px; 
+}
+
+@media screen and(max-width: 768px) {
+  .row-work {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
-  .work2 {
-    background: green;
+
+  .row-work-2 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
-  .work3 {
-    background: red;
+
+  .colu-1 {
+    margin-top: 27px;
   }
 }
