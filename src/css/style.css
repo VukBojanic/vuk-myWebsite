@@ -79,6 +79,13 @@
     .info .lates-note .note-par {
       color: #606060; }
 
+@media screen and (max-width: 991px) {
+  .info {
+    margin-top: 50px; }
+    .info .pages {
+      display: block;
+      text-align: center; } }
+
 .work-container {
   padding: 0; }
   .work-container .work-1 {
@@ -95,7 +102,6 @@
       height: 400px; }
       .work-container .work-1 .txt-col-1 h4 {
         text-align: left;
-        padding-top: 35px;
         color: #606060;
         margin-left: 50px; }
       .work-container .work-1 .txt-col-1 .desc-text {
@@ -116,6 +122,8 @@
       margin-top: 0;
       position: relative;
       margin-left: 0 !important; }
+    .work-1 h4 {
+      padding-top: 5px !important; }
     .work-1 .txt-col-1 {
       margin-left: 0 !important;
       margin-top: -50px; } }
