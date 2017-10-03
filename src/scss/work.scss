@@ -62,21 +62,18 @@
 
   .work-1 {
     margin-top: 100px;
-    
+
     .img-col-1 {
       margin-top: 30px;
       position: relative;
-      margin-bottom: -20px;
-      margin-left: 0;
+      margin-left: 17px;
     }
   
     .txt-col-1 {
       background-color: #fff;
       border: 1px solid  #D4D4D4;
       box-shadow: 2px 2px 1px #D4D4D4;
-      width: 100% !important;
       margin-left: -50px;
-      padding-right: 50px;
       height: 400px;
       h4 {
         text-align: left;
@@ -98,4 +95,20 @@
     }
   }
   
+}
+
+@media screen and(max-width: 768px){
+  .work-1 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  .img-col-1 {
+    margin-top: 0;
+    position: relative;
+    margin-left: 0 !important;
+  }
+  .txt-col-1 {
+    margin-left: 0 !important;
+    margin-top: -50px;
+  }
+}
 }
