@@ -1,11 +1,21 @@
 @import 'variables';
 
+.work-me {
+  margin-top: 60px;
+  color: #8b8b8b;
+
+  .back-from-work {
+    text-decoration: none;
+    color: #fe3325;
+    margin-top: 20px;
+  }
+}
 
 .work-container {
   padding: 0;
 
   .work-1 {
-    margin-top: 100px;
+    margin-top: 60px;
 
     .img-col-1 {
       margin-top: 30px;
@@ -32,6 +42,7 @@
         text-align: left;
         margin-left: 50px;
         padding-top: 20px;
+        color: #8b8b8b;
       }
       a {
         margin-left: 50px;
@@ -80,7 +91,7 @@
     //border: 1px solid  #D4D4D4;
     box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 10px rgba(0, 0, 0, 0.1);
     border: 1px solid rgb(245, 245, 245);
-    margin-top: -50px;
+    margin-top: -30px;
     margin-right: -50px;
     height: 400px;
     z-index: 2;
@@ -98,6 +109,7 @@
       text-align: left;
       margin-left: 50px;
       padding-top: 20px;
+      color: #8b8b8b;
     }
 
     a {
