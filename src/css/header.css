@@ -55,17 +55,17 @@
   .info .pages {
     display: flex;
     padding: 0; }
-    .info .pages a {
-      text-decoration: none;
-      color: #333;
-      font-size: 30px;
+    .info .pages h3 {
       margin-left: 50px; }
-      .info .pages a:nth-child(1) {
+      .info .pages h3:nth-child(1) {
         margin-left: 0 !important; }
-      .info .pages a:hover {
-        font-weight: bold;
-        color: #fe3325;
-        transition: .3s ease; }
+      .info .pages h3 a {
+        text-decoration: none;
+        color: #333;
+        font-size: 35px; }
+        .info .pages h3 a:hover {
+          color: #fe3325;
+          transition: .3s ease; }
   .info .lates-note {
     padding: 0 !important; }
     .info .lates-note .note-title {
@@ -85,8 +85,11 @@
   .info {
     margin-top: 50px; }
     .info .pages {
-      display: block;
+      display: block !important;
       text-align: center; }
+      .info .pages h3 {
+        margin-left: 0;
+        padding-bottom: 30px; }
     .info .lates-note {
       margin-top: 30px; } }
 

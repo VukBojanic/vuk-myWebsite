@@ -84,18 +84,21 @@
   .pages {
     display: flex;
     padding: 0;
-    a {
-      text-decoration: none;
-      color: #333;
-      font-size: 30px;
+    h3 {
       margin-left: 50px;
       &:nth-child(1) {
         margin-left: 0 !important;
       }
-      &:hover {
-        font-weight: bold;
-        color: #fe3325;
-        transition: .3s ease;
+      a {
+        text-decoration: none;
+        color: #333;
+        font-size: 35px;
+        
+       
+        &:hover {
+          color: #fe3325;
+          transition: .3s ease;
+        }
       }
     }
   }
@@ -125,8 +128,13 @@
   .info {
     margin-top: 50px;
     .pages {
-      display: block;
+      display: block !important;
       text-align: center;
+      h3 {
+        margin-left: 0;
+        padding-bottom: 30px;
+       
+      }
     }
 
     .lates-note {
