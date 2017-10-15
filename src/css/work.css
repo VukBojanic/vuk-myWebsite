@@ -1,6 +1,7 @@
 .work-me {
   margin-top: 60px;
-  color: #8b8b8b; }
+  color: #8b8b8b;
+  padding-left: 0; }
   .work-me h4 {
     margin: 0; }
   .work-me .back-from-work {
@@ -41,6 +42,8 @@
         color: #fe3325; }
 
 @media screen and (max-width: 768px) {
+  .work-container .work-me {
+    padding-left: 15px; }
   .work-container .work-1 {
     margin-right: 0 !important;
     margin-left: 0 !important; }

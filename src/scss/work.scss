@@ -3,6 +3,7 @@
 .work-me {
   margin-top: 60px;
   color: #8b8b8b;
+  padding-left: 0;
 
   h4 {
     margin: 0;
@@ -62,8 +63,12 @@
 @media screen and(max-width: 768px){
   .work-container {
 
+    .work-me {
+      padding-left: 15px;
+    }
+
   .work-1 {
-      margin-right: 0 !important;
+    margin-right: 0 !important;
     margin-left: 0 !important;
   }
   .img-col-1 {

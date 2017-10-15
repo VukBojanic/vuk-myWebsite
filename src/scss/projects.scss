@@ -6,8 +6,20 @@
 
 
   .proj-intro {
-    padding-bottom: 30px;
     color: #8b8b8b;
+  }
+
+  .proj-title {
+    color: #606060;
+    font-family: 'Abril Fatface'
+  }
+  .proj-desc {
+    color: #606060;
+    padding-top: 30px;
+  }
+  a {
+    text-decoration: none;
+    color: #fe3325;
   }
   .back-proj {
     font-size: 22px;
@@ -15,6 +27,7 @@
     a {
       text-decoration: none;
       color: #fe3325;
+      font-size: 20px;
     }
   }
 
@@ -22,5 +35,34 @@
 
   .project-2 {
     margin-top: 100px;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .projects {
+    
+    .proj-intro {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .proj-title {
+      padding-top: 40px;
+    }
+
+    .back-proj {
+      a {
+        padding-left: 10px;
+      }
+    }
+
+    .project-1 {
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+    }
+
+    .project-2 {
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+    }
   }
 }
