@@ -19,8 +19,11 @@
       text-decoration: none;
       color: #fe3325;
       font-size: 20px; }
+  .projects .project-1 {
+    margin-left: 0; }
   .projects .project-2 {
-    margin-top: 100px; }
+    margin-top: 100px;
+    margin-left: 0; }
 
 @media screen and (max-width: 768px) {
   .projects .proj-intro {

@@ -1,0 +1,24 @@
+.proj-desc {
+  color: #606060;
+  padding-top: 30px; }
+
+.back-notes {
+  font-size: 22px;
+  padding-bottom: 35px; }
+  .back-notes a {
+    text-decoration: none;
+    color: #fe3325;
+    font-size: 20px; }
+
+.notes {
+  padding-left: 0;
+  padding-right: 0; }
+  .notes a {
+    text-decoration: none;
+    color: #fe3325;
+    font-size: 25px; }
+
+@media screen and (max-width: 768px) {
+  .notes {
+    padding-left: 15px;
+    padding-right: 15px; } }
