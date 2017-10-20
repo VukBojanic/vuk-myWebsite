@@ -1,0 +1,29 @@
+@import 'variables';
+
+.about-me {
+  padding-top: 100px;
+  padding-left: 0;
+  padding-right: 0;
+  .about-title {
+    font-family: Abril fatface;
+    color: #606060;
+  }
+  .desc-text {
+    padding-top: 20px;
+    color: #8b8b8b;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  b {
+    a {
+      text-decoration: none;
+      color: #fe3325;
+    }
+  }
+}
+@media screen and(max-width: 768px) {
+  .about-me {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

@@ -355,15 +355,42 @@
     font-size: 20px; }
 
 .notes {
-  padding-left: 0;
-  padding-right: 0; }
+  padding-left: 0; }
   .notes a {
+    text-decoration: none;
+    color: #fe3325;
+    font-size: 25px; }
+
+.notes-2 {
+  padding-right: 0; }
+  .notes-2 a {
     text-decoration: none;
     color: #fe3325;
     font-size: 25px; }
 
 @media screen and (max-width: 768px) {
   .notes {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+.about-me {
+  padding-top: 100px;
+  padding-left: 0;
+  padding-right: 0; }
+  .about-me .about-title {
+    font-family: Abril fatface;
+    color: #606060; }
+  .about-me .desc-text {
+    padding-top: 20px;
+    color: #8b8b8b;
+    font-size: 17px;
+    line-height: 1.5; }
+  .about-me b a {
+    text-decoration: none;
+    color: #fe3325; }
+
+@media screen and (max-width: 768px) {
+  .about-me {
     padding-left: 15px;
     padding-right: 15px; } }
 

@@ -11,9 +11,15 @@
     font-size: 20px; }
 
 .notes {
-  padding-left: 0;
-  padding-right: 0; }
+  padding-left: 0; }
   .notes a {
+    text-decoration: none;
+    color: #fe3325;
+    font-size: 25px; }
+
+.notes-2 {
+  padding-right: 0; }
+  .notes-2 a {
     text-decoration: none;
     color: #fe3325;
     font-size: 25px; }
