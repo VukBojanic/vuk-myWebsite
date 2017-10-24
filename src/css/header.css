@@ -69,14 +69,15 @@
   .info .lates-note {
     padding: 0 !important; }
     .info .lates-note .note-title {
-      text-decoration: underline;
-      color: #fe3325;
-      font-size: 25px;
       padding-left: 20px; }
-      .info .lates-note .note-title:hover {
-        text-decoration: none;
-        color: #333;
-        transition: .3s ease; }
+      .info .lates-note .note-title a {
+        text-decoration: underline;
+        color: #fe3325;
+        font-size: 25px; }
+        .info .lates-note .note-title a:hover {
+          text-decoration: none;
+          color: #333;
+          transition: .3s ease; }
     .info .lates-note .note-par {
       color: #606060;
       padding: 20px; }
