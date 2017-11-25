@@ -13,6 +13,8 @@
   .about-me b a {
     text-decoration: none;
     color: #fe3325; }
+  .about-me .fleka {
+    color: #fe3325; }
 
 @media screen and (max-width: 768px) {
   .about-me {
